@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+/* Parent Main DIV */
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: dimgray;
+    padding-block-start: 1%;
+    padding-block-end: 1%;
+    margin-block-end: 1%;
+    color: #fff;
+    font-size: 25px;
+}
+.logo{
+    flex: 40%;
+    padding-block-start: 0%;
+}
+.desp{
+    flex: 60%;
+    padding-block-start: 1%;
+}
+#desText{
+    color: rgb(18, 11, 31);
+}
+.imgLogo{
+    margin-inline-start: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 95px;
+}
+
+/* Parent Main DIV 2 Contact */
+.mainContact{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.headContact{
+    flex: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction:column;
+    background-color: dodgerblue;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.headText{
+    padding-block-start: 5%;
+}
+.addContact{
+    flex: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction:column;
+    background-color: firebrick;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.addImg{
+    flex: 50%;
+    padding-block-end: 5%;
+}
+.addText{
+    flex: 50%; 
+}
+.noContact{
+    flex: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction:column;
+    background-color: fuchsia;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.noImg{
+    flex: 50%; 
+    padding-block-end: 5%;
+}
+.noText{
+    flex: 50%; 
+}
+.emailContact{
+    flex: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction:column;
+    background-color: indianred;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.emailImg{
+    flex: 50%; 
+    padding-block-end: 5%;
+}
+.emailText{
+    flex: 50%; 
+}
+
+/* Side 1 DIV 3 */
+
+.detailParent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+}
+.detailSide{
+    flex: 50%;
+}
+.info{
+    background-color: lightslategray;
+    padding-block-end: 2%;
+    padding-block-start: 2%;
+}
+.infoHead h4{
+    margin-bottom: 5%;
+}
+.education{
+    background-color: steelblue;
+    padding-block-end: 2%;
+    padding-block-start: 2%;
+}
+.eduHead h2{
+    margin-bottom: 5%;
+}
+.hobbies{
+    background-color: tomato;
+    padding-block-end: 2%;
+    padding-block-start: 2%;
+}
+.hobHead h2{
+    margin-bottom: 5%;
+}
+.detailMain{
+    flex: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.skill{
+    flex: 45%;
+    background-color: darkgray;
+}
+.sklHead{
+    padding-block-start: 1%;
+    padding-block-end: 2%;
+}
+.skillList{
+    padding-block-end: 5%;
+}
+.listIcon{
+    margin-inline-start: 25%;
+}
+.project{
+    flex: 55%;
+    background-color: firebrick;
+    padding-block-start: 2%;
+}
+.prjHead{
+    padding-block-end: 5%;
+}
+a{
+    text-decoration: none;
+}
+.project p{
+    cursor: pointer;
+}
+
